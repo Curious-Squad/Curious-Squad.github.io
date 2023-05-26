@@ -18,8 +18,10 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Curious-Squad', // Usually your GitHub org/user name.
+  organizationName: 'curious-squad', // Usually your GitHub org/user name.
   projectName: 'curious-squad.github.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
