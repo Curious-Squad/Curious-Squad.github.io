@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[304],{5410:e=>{e.exports=JSON.parse('{"title":"Projects","description":"Select A Project You Want To View From The Following","slug":"/category/projects","permalink":"/docs/category/projects","navigation":{"next":{"title":"Quadroid","permalink":"/docs/projects/quadroid"}}}')}}]);
