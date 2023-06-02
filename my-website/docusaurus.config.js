@@ -22,13 +22,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+          // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -41,19 +35,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Curious Squad',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Curious-Squad',
             label: 'GitHub',
@@ -69,7 +56,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Projects',
                 to: '/docs/intro',
               },
             ],
@@ -79,15 +66,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: '#',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: '#',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: '#',
               },
             ],
           },
@@ -95,17 +82,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Curious-Squad',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} [Curious Squad](https://github.com/Curious-Squad)`,
       },
       prism: {
         theme: lightCodeTheme,
