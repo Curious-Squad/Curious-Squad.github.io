@@ -1,8 +1,8 @@
 {
   "label": "Projects",
-  "position": 2,
+  "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Select The Project You Want To View From The Following"
+    "description": "Select A Project You Want To View From The Following"
   }
 }

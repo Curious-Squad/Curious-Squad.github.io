@@ -1,9 +1,11 @@
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-// With JSDoc @type annotations, IDEs can provide config autocompletion
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-(module.exports = {
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   title: 'Curious Squad',
   tagline: 'Students Of Kendriya Vidyalaya No.1 Saltlake To Change The Future',
   url: 'https://Curious-Squad.github.io',
@@ -57,7 +59,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Projects',
-                to: '/docs/intro',
+                to: '/docs/category/projects',
               },
             ],
           },
@@ -65,17 +67,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: '#',
-              },
-              {
-                label: 'Discord',
-                href: '#',
-              },
-              {
-                label: 'Twitter',
-                href: '#',
-              },
+                label: 'Telegram',
+                href: 'https://telegram.me/MobidX',
+              }
             ],
           },
           {
@@ -88,11 +82,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} [Curious Squad](https://github.com/Curious-Squad)`,
+        copyright: `Copyright © ${new Date().getFullYear()}  <a href="https://github.com/Curious-Squad" target="_blank">Curious Squad</a>`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
-});
+};
+
+module.exports = config;
